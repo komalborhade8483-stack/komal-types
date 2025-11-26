@@ -1,0 +1,31 @@
+nav{
+      padding: 0.5rem 0rem;
+
+      display: flex;
+      align-items: center;
+}
+
+nav div{
+      margin: 0px 20px;
+}
+
+nav .logo{
+      font-size: 2rem;
+      font-weight: 500;
+      color: var(--color-text-highlight);
+}
+
+nav .links a{
+      margin: 0px 10px;
+}
+
+nav .links .link img{
+      height: 25px;
+
+      filter: invert(0.7);
+
+}
+
+nav .links .link img:hover{
+      filter: invert(1);
+}

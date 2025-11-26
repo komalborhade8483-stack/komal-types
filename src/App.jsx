@@ -1,9 +1,9 @@
-import './App.css'
+import Navbar from "./comps/Navbar"
 
 function App() {
   return (
     <>
-      Hello World
+      <Navbar></Navbar>
     </>
   )
 }
