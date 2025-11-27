@@ -51,3 +51,11 @@ header .nav-controls-wrapper .nav-controls .mode-details div button
 {
       margin: 0px 10px;
 }
+
+header .timeicon {
+  height :10px;
+} 
+header .wordicon{
+  height :10px;
+}
+  

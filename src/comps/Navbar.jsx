@@ -1,6 +1,8 @@
 import React from "react";
 import keypad_icon from "../assets/keyboard_icon.png";
 import info_icon from "../assets/info_icon.png";
+import text_icon from "../assets/text_icon.png";
+import time_icon from"../assets/time_icon.png";
 import { Link } from "react-router-dom";
 import {
   NavControlsMode,
@@ -52,6 +54,7 @@ function Navbar() {
                 mode === NavControlsMode.TIME ? "active" : ""
               }`}
             >
+              <img src={time_icon} alt=""  className ="timeicon"/>
               time
             </button>
 
@@ -61,6 +64,7 @@ function Navbar() {
                 mode === NavControlsMode.WORD ? "active" : ""
               }`}
             >
+              <img src={ text_icon}alt="" className= "wordicon" />
               words
             </button>
           </div>
